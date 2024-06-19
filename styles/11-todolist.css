@@ -1,0 +1,41 @@
+
+button{
+    font-size: 15px;
+    cursor: pointer;
+    border: none;
+}
+.todo-grid, 
+.todo-input-grid,
+.todo-output-grid{
+    display: grid;
+    column-gap: 10px;
+    grid-template-columns: 250px 150px 100px ;
+    align-items: center ; /*align*/
+}
+.todo-input-grid{
+    align-items: stretch;
+    height: 40px;
+}
+.todo-input-grid>{
+    padding: 15px;
+}
+
+.todo-output-grid{
+    margin-top: 15px;    
+    row-gap: 10px;
+}
+.js-due-date-input,
+.js-name-input{
+    font-size: 15px;
+    padding: 5px;
+}
+.todo-input-grid>button{
+
+    background-color: green;
+    color: white;
+}
+.todo-output-grid>button{
+    padding: 10px 5px;
+    background-color: darkred;
+    color: white;
+}
